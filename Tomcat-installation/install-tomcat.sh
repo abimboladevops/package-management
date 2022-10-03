@@ -49,5 +49,5 @@ vi /opt/tomcat9/conf/tomcat-users.xml  # to add user
 	
 	
 for tomcat integration with jenkins
-vi /tomcat9/conf/tomcat-users.xml
+sudo vi /opt/tomcat9/conf/tomcat-users.xml
 <user username="landmark" password="admin123" roles="manager-gui,admin-gui, manager-script"/>
