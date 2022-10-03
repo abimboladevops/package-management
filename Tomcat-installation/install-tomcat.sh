@@ -42,9 +42,12 @@ vi /opt/tomcat9/conf/tomcat-users.xml  # to add user
 
  vi /opt/tomcat9/webapps/manager/META-INF/context.xml
   
-  vi /opt/tomcat9/conf/tomcat-user.xml  # to add user
+  vi /opt/tomcat9/conf/tomcat-users.xml  # to add user
   
 	
 	username YourName password=PassWord   roles=manager-gui
 	
 	
+for tomcat integration with jenkins
+vi /tomcat9/conf/tomcat-users.xml
+<user username="landmark" password="admin123" roles="manager-gui,admin-gui, manager-script"/>
